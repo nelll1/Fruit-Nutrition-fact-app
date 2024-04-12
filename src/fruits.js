@@ -1,13 +1,11 @@
-
-    
- const FruitData = [
+const FruitData = [
     {
         "name": "Persimmon",
         "id": 52,
         "family": "Ebenaceae",
         "order": "Rosales",
         "genus": "Diospyros",
-        "nutritions": {
+        "nutrition": {
             "calories": 81,
             "fat": 0.0,
             "sugar": 18.0,
@@ -21,7 +19,7 @@
         "family": "Rosaceae",
         "order": "Rosales",
         "genus": "Fragaria",
-        "nutritions": {
+        "nutrition": {
             "calories": 29,
             "fat": 0.4,
             "sugar": 5.4,
@@ -35,7 +33,7 @@
         "family": "Musaceae",
         "order": "Zingiberales",
         "genus": "Musa",
-        "nutritions": {
+        "nutrition": {
             "calories": 96,
             "fat": 0.2,
             "sugar": 17.2,
@@ -49,7 +47,7 @@
         "family": "Solanaceae",
         "order": "Solanales",
         "genus": "Solanum",
-        "nutritions": {
+        "nutrition": {
             "calories": 74,
             "fat": 0.2,
             "sugar": 2.6,
@@ -63,7 +61,7 @@
         "family": "Rosaceae",
         "order": "Rosales",
         "genus": "Pyrus",
-        "nutritions": {
+        "nutrition": {
             "calories": 57,
             "fat": 0.1,
             "sugar": 10.0,
@@ -77,7 +75,7 @@
         "family": "Malvaceae",
         "order": "Malvales",
         "genus": "Durio",
-        "nutritions": {
+        "nutrition": {
             "calories": 147,
             "fat": 5.3,
             "sugar": 6.75,
@@ -91,7 +89,7 @@
         "family": "Rosaceae",
         "order": "Rosales",
         "genus": "Rubus",
-        "nutritions": {
+        "nutrition": {
             "calories": 40,
             "fat": 0.4,
             "sugar": 4.5,
@@ -105,7 +103,7 @@
         "family": "Ericaceae",
         "order": "Ericales",
         "genus": "Vaccinium",
-        "nutritions": {
+        "nutrition": {
             "calories": 50,
             "fat": 0.34,
             "sugar": 5.74,
@@ -119,7 +117,7 @@
         "family": "Actinidiaceae",
         "order": "Struthioniformes",
         "genus": "Apteryx",
-        "nutritions": {
+        "nutrition": {
             "calories": 61,
             "fat": 0.5,
             "sugar": 9.0,
@@ -133,7 +131,7 @@
         "family": "Sapindaceae",
         "order": "Sapindales",
         "genus": "Litchi",
-        "nutritions": {
+        "nutrition": {
             "calories": 66,
             "fat": 0.44,
             "sugar": 15.0,
@@ -147,7 +145,7 @@
         "family": "Bromeliaceae",
         "order": "Poales",
         "genus": "Ananas",
-        "nutritions": {
+        "nutrition": {
             "calories": 50,
             "fat": 0.12,
             "sugar": 9.85,
@@ -161,7 +159,7 @@
         "family": "Moraceae",
         "order": "Rosales",
         "genus": "Ficus",
-        "nutritions": {
+        "nutrition": {
             "calories": 74,
             "fat": 0.3,
             "sugar": 16.0,
@@ -175,7 +173,7 @@
         "family": "Grossulariaceae",
         "order": "Saxifragales",
         "genus": "Ribes",
-        "nutritions": {
+        "nutrition": {
             "calories": 44,
             "fat": 0.6,
             "sugar": 0.0,
@@ -189,7 +187,7 @@
         "family": "Passifloraceae",
         "order": "Malpighiales",
         "genus": "Passiflora",
-        "nutritions": {
+        "nutrition": {
             "calories": 97,
             "fat": 0.7,
             "sugar": 11.2,
@@ -203,7 +201,7 @@
         "family": "Rosaceae",
         "order": "Rosales",
         "genus": "Prunus",
-        "nutritions": {
+        "nutrition": {
             "calories": 46,
             "fat": 0.28,
             "sugar": 9.92,
@@ -217,7 +215,7 @@
         "family": "Rutaceae",
         "order": "Sapindales",
         "genus": "Citrus",
-        "nutritions": {
+        "nutrition": {
             "calories": 43,
             "fat": 0.2,
             "sugar": 8.2,
@@ -231,7 +229,7 @@
         "family": "Rosaceae",
         "order": "Rosales",
         "genus": "Malus",
-        "nutritions": {
+        "nutrition": {
             "calories": 21,
             "fat": 0.1,
             "sugar": 6.4,
@@ -245,7 +243,7 @@
         "family": "Rosaceae",
         "order": "Rosales",
         "genus": "Rubus",
-        "nutritions": {
+        "nutrition": {
             "calories": 53,
             "fat": 0.7,
             "sugar": 4.4,
@@ -259,7 +257,7 @@
         "family": "Cucurbitaceae",
         "order": "Cucurbitales",
         "genus": "Citrullus",
-        "nutritions": {
+        "nutrition": {
             "calories": 30,
             "fat": 0.2,
             "sugar": 6.0,
@@ -273,7 +271,7 @@
         "family": "Rutaceae",
         "order": "Sapindales",
         "genus": "Citrus",
-        "nutritions": {
+        "nutrition": {
             "calories": 29,
             "fat": 0.3,
             "sugar": 2.5,
@@ -287,7 +285,7 @@
         "family": "Anacardiaceae",
         "order": "Sapindales",
         "genus": "Mangifera",
-        "nutritions": {
+        "nutrition": {
             "calories": 60,
             "fat": 0.38,
             "sugar": 13.7,
@@ -301,7 +299,7 @@
         "family": "Rosaceae",
         "order": "Rosales",
         "genus": "Fragaria",
-        "nutritions": {
+        "nutrition": {
             "calories": 29,
             "fat": 0.4,
             "sugar": 5.4,
@@ -315,7 +313,7 @@
         "family": "Rosaceae",
         "order": "Rosales",
         "genus": "Malus",
-        "nutritions": {
+        "nutrition": {
             "calories": 52,
             "fat": 0.4,
             "sugar": 10.3,
@@ -329,7 +327,7 @@
         "family": "Myrtaceae",
         "order": "Myrtales",
         "genus": "Psidium",
-        "nutritions": {
+        "nutrition": {
             "calories": 68,
             "fat": 1.0,
             "sugar": 9.0,
@@ -343,7 +341,7 @@
         "family": "Rosaceae",
         "order": "Rosales",
         "genus": "Prunus",
-        "nutritions": {
+        "nutrition": {
             "calories": 15,
             "fat": 0.1,
             "sugar": 3.2,
@@ -357,7 +355,7 @@
         "family": "Cucurbitaceae",
         "order": "Cucurbitaceae",
         "genus": "Cucumis",
-        "nutritions": {
+        "nutrition": {
             "calories": 34,
             "fat": 0.0,
             "sugar": 8.0,
@@ -371,7 +369,7 @@
         "family": "Rutaceae",
         "order": "Sapindales",
         "genus": "Citrus",
-        "nutritions": {
+        "nutrition": {
             "calories": 45,
             "fat": 0.4,
             "sugar": 9.1,
@@ -385,7 +383,7 @@
         "family": "Cactaceae",
         "order": "Caryophyllales",
         "genus": "Cactaceae",
-        "nutritions": {
+        "nutrition": {
             "calories": 36,
             "fat": 0.4,
             "sugar": 3.0,
@@ -399,7 +397,7 @@
         "family": "Rutaceae",
         "order": "Sapindales",
         "genus": "Citrus",
-        "nutritions": {
+        "nutrition": {
             "calories": 25,
             "fat": 0.1,
             "sugar": 1.7,
@@ -413,7 +411,7 @@
         "family": "Lythraceae",
         "order": "Myrtales",
         "genus": "Punica",
-        "nutritions": {
+        "nutrition": {
             "calories": 83,
             "fat": 1.2,
             "sugar": 13.7,
@@ -427,7 +425,7 @@
         "family": "Cactaceae",
         "order": "Caryophyllales",
         "genus": "Selenicereus",
-        "nutritions": {
+        "nutrition": {
             "calories": 60,
             "fat": 1.5,
             "sugar": 8.0,
@@ -441,7 +439,7 @@
         "family": "Vitaceae",
         "order": "Vitales",
         "genus": "Vitis",
-        "nutritions": {
+        "nutrition": {
             "calories": 69,
             "fat": 0.16,
             "sugar": 16.0,
@@ -455,7 +453,7 @@
         "family": "Moraceae",
         "order": "Rosales",
         "genus": "Morus",
-        "nutritions": {
+        "nutrition": {
             "calories": 43,
             "fat": 0.39,
             "sugar": 8.1,
@@ -469,7 +467,7 @@
         "family": "Myrtaceae",
         "order": "Myrtoideae",
         "genus": "Sellowiana",
-        "nutritions": {
+        "nutrition": {
             "calories": 44,
             "fat": 0.4,
             "sugar": 3.0,
@@ -483,7 +481,7 @@
         "family": "Lauraceae",
         "order": "Laurales",
         "genus": "Persea",
-        "nutritions": {
+        "nutrition": {
             "calories": 160,
             "fat": 14.66,
             "sugar": 0.66,
@@ -497,7 +495,7 @@
         "family": "Actinidiaceae",
         "order": "Ericales",
         "genus": "Actinidia",
-        "nutritions": {
+        "nutrition": {
             "calories": 61,
             "fat": 0.5,
             "sugar": 8.9,
@@ -511,7 +509,7 @@
         "family": "Ericaceae",
         "order": "Ericales",
         "genus": "Vaccinium",
-        "nutritions": {
+        "nutrition": {
             "calories": 46,
             "fat": 0.1,
             "sugar": 4.0,
@@ -525,7 +523,7 @@
         "family": "Rosaceae",
         "order": "Rosales",
         "genus": "Prunus",
-        "nutritions": {
+        "nutrition": {
             "calories": 50,
             "fat": 0.3,
             "sugar": 8.0,
@@ -539,7 +537,7 @@
         "family": "Rosaceae",
         "order": "Rosales",
         "genus": "Prunus",
-        "nutritions": {
+        "nutrition": {
             "calories": 39,
             "fat": 0.25,
             "sugar": 8.4,
@@ -553,7 +551,7 @@
         "family": "Moraceae",
         "order": "Rosales",
         "genus": "Artocarpus",
-        "nutritions": {
+        "nutrition": {
             "calories": 95,
             "fat": 0.0,
             "sugar": 19.1,
@@ -567,7 +565,7 @@
         "family": "Cucurbitaceae",
         "order": "Cucurbitales",
         "genus": "Cucumis",
-        "nutritions": {
+        "nutrition": {
             "calories": 44,
             "fat": 1.26,
             "sugar": 0.5,
@@ -581,7 +579,7 @@
         "family": "Betulaceae",
         "order": "Fagales",
         "genus": "Corylus",
-        "nutritions": {
+        "nutrition": {
             "calories": 628,
             "fat": 61.0,
             "sugar": 4.3,
@@ -595,7 +593,7 @@
         "family": "Rutaceae",
         "order": "Sapindales",
         "genus": "Citrus",
-        "nutritions": {
+        "nutrition": {
             "calories": 37,
             "fat": 0.0,
             "sugar": 8.5,
@@ -609,7 +607,7 @@
         "family": "Clusiaceae",
         "order": "Malpighiales",
         "genus": "Garcinia",
-        "nutritions": {
+        "nutrition": {
             "calories": 73,
             "fat": 0.58,
             "sugar": 16.11,
@@ -623,7 +621,7 @@
         "family": "Cucurbitaceae",
         "order": "Cucurbitales",
         "genus": "Cucurbita",
-        "nutritions": {
+        "nutrition": {
             "calories": 25,
             "fat": 0.3,
             "sugar": 3.3,
@@ -637,7 +635,7 @@
         "family": " Ebenaceae",
         "order": " Ericales",
         "genus": "Diospyros",
-        "nutritions": {
+        "nutrition": {
             "calories": 70,
             "fat": 0.2,
             "sugar": 13.0,
@@ -651,7 +649,7 @@
         "family": "Caricaceae",
         "order": "Brassicales",
         "genus": "Carica",
-        "nutritions": {
+        "nutrition": {
             "calories": 39,
             "fat": 0.3,
             "sugar": 4.4,
@@ -665,7 +663,7 @@
         "family": "Annonaceae",
         "order": "Rosales",
         "genus": "Annonas",
-        "nutritions": {
+        "nutrition": {
             "calories": 92,
             "fat": 0.29,
             "sugar": 3.4,
@@ -679,7 +677,7 @@
         "family": "Salicaceae",
         "order": "Malpighiales",
         "genus": "Dovyalis",
-        "nutritions": {
+        "nutrition": {
             "calories": 47,
             "fat": 0.3,
             "sugar": 8.1,

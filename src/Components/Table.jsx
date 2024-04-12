@@ -6,17 +6,40 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import FruitData from '../fruits';
 
 function createData(name, calories, fat, carbs, protein) {
   return { name, calories, fat, carbs, protein };
 }
 
-const rows = [
-  createData('Apple', 52, 0.4, 10.3, 0.3),
+
+
+export default function BasicTable(props) {
+  const nameOfFruit = props.fruitName
+  
+  let index = -1;
+
+  FruitData.forEach((fruit, i) => {
+    if(fruit.name === nameOfFruit){
+      index = i;
+    }
+  })
+
+  let rows = [
+    createData("Fruit","0","0","0","0")
 ];
 
-export default function BasicTable() {
+  if (nameOfFruit === null) {
+      console.log("its null");
+  } else{
+      rows =[  createData(props.fruitName, FruitData[index].nutrition.calories, FruitData[index].nutrition.fat, FruitData[index].nutrition.sugar,
+        FruitData[index].nutrition.protein),]
+  }
+
+
   return (
+
+
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
