@@ -8,14 +8,14 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import FruitData from '../fruits';
 
-function createData(name, calories, fat, carbs, protein) {
-  return { name, calories, fat, carbs, protein };
+function createData(name, calories, fat, sugar, protein) {
+  return { name, calories, fat, sugar, protein };
 }
 
 
 
 export default function BasicTable(props) {
-  const nameOfFruit = props.fruitName
+  const nameOfFruit = props.fruitName;
   
   let index = -1;
 
@@ -23,23 +23,25 @@ export default function BasicTable(props) {
     if(fruit.name === nameOfFruit){
       index = i;
     }
-  })
+  });
 
   let rows = [
-    createData("Fruit","0","0","0","0")
-];
+    createData("Fruit", "0", "0", "0", "0")
+  ];
 
-  if (nameOfFruit === null) {
-      console.log("its null");
-  } else{
-      rows =[  createData(props.fruitName, FruitData[index].nutrition.calories, FruitData[index].nutrition.fat, FruitData[index].nutrition.sugar,
-        FruitData[index].nutrition.protein),]
+  if (nameOfFruit !== null && index !== -1) {
+    rows = [
+      createData(
+        nameOfFruit,
+        FruitData[index]?.nutrition?.calories || "N/A",
+        FruitData[index]?.nutrition?.fat || "N/A",
+        FruitData[index]?.nutrition?.sugar || "N/A",
+        FruitData[index]?.nutrition?.protein || "N/A"
+      )
+    ];
   }
 
-
   return (
-
-
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
@@ -62,7 +64,7 @@ export default function BasicTable(props) {
               </TableCell>
               <TableCell align="right">{row.calories}</TableCell>
               <TableCell align="right">{row.fat}</TableCell>
-              <TableCell align="right">{row.carbs}</TableCell>
+              <TableCell align="right">{row.sugar}</TableCell>
               <TableCell align="right">{row.protein}</TableCell>
             </TableRow>
           ))}

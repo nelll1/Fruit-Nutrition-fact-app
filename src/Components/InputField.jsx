@@ -10,6 +10,9 @@ export default function FreeSoloCreateOption(props) {
     <Autocomplete
     value={props.fruitValue}
     onChange={(event, newValue) => {
+      // const inputValue = event.target.value;
+      // const capitalizedValue = inputValue.charAt(0).toUpperCase() + inputValue.slice(1);
+      
       if (typeof newValue === 'string') {
         props.setFruitValue(newValue)
     }}
